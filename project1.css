@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #ffffff; 
-    color: #000000;
+    background-color: #0d1117; /* Exact GitHub dark background */
+    color: #c9d1d9;
 }
 
 header {
@@ -287,15 +287,15 @@ header {
 }
 
 .card {
-    background: #ffffff;
+    background-color: #161b22;
     width: 250px;
     padding: 20px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #30363d;
     border-top: 1px solid #e0e0e0;
     cursor: pointer;
     border-radius: 12px;
     position: relative;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.5s ease, border-color 0.5s;
 }
 
@@ -303,7 +303,7 @@ header {
     
     transform: translateY(-12px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15); 
-    border-color: #000000;
+    border-color: #d4af37;
     z-index: 10; 
 
 }
@@ -756,6 +756,7 @@ footer b {
         padding: 30px 20px;
     }
 }
+
 
 
 
