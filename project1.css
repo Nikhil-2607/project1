@@ -12,13 +12,13 @@ body {
 header {
     background-image: none;
     backdrop-filter: blur(12px);
-    background-color: #000000;
+    background: linear-gradient(90deg, rgba(5, 5, 5, 0.95), rgba(12, 27, 51, 0.95));
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #1a1a1a;
     animation: slideheaderdown 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     position: sticky;
     top: 0;
@@ -84,7 +84,7 @@ header {
 .search-bar input {
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #1a1e24;
     border: 1px solid #cccccc;
     border-radius: 5px;
     color: #000000;
@@ -95,7 +95,7 @@ header {
 }
 
 .search-bar input:focus {
-    background-color: #ffffff;
+    border-color: #d4af37;
     border: 2px solid #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-1px);
@@ -749,3 +749,4 @@ footer b {
         padding: 30px 20px;
     }
 }
+
