@@ -94,7 +94,7 @@ header {
     background-color: #1a1e24;
     border: 1px solid #cccccc;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .search-bar input::placeholder {
@@ -756,5 +756,6 @@ footer b {
         padding: 30px 20px;
     }
 }
+
 
 
