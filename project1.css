@@ -12,19 +12,26 @@ body {
 header {
     background-image: none;
     backdrop-filter: blur(12px);
-    background: linear-gradient(90deg, rgba(5, 5, 5, 0.95), rgba(12, 27, 51, 0.95));
+    background-color: rgba(5, 5, 5, 0.95);
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
     border-bottom: 1px solid #1a1a1a;
-    animation: slideheaderdown 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    animation: slideheaderdown 1s cubic-bezier(0.25, 1, 0.5, 1) forwards,headerColorShift 4s linear infinite alternate;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
-
+@keyframes headerColorShift {
+    0% {
+        background-color: rgba(5, 5, 5, 0.95); /* 100% Black */
+    }
+    100% {
+        background-color: rgba(12, 27, 51, 0.95); /* Sapphire Blue */
+    }
+}
 @keyframes slideheaderdown {
     0% { transform: translateY(-100%); opacity: 0; }
     100% { transform: translateY(0); opacity: 1; }
@@ -749,4 +756,5 @@ footer b {
         padding: 30px 20px;
     }
 }
+
 
