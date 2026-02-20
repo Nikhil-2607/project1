@@ -287,7 +287,7 @@ header {
 }
 
 .card {
-    background: #ffffff;
+    background-color: #ffffff;
     width: 250px;
     padding: 20px;
     border: 1px solid #30363d;
@@ -756,6 +756,7 @@ footer b {
         padding: 30px 20px;
     }
 }
+
 
 
 
